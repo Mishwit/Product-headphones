@@ -1,9 +1,42 @@
+.nav-wrapper{
+  display: flex;
+  height: 66px;
+  margin: 34px 237px 0 237px;
+  justify-content: center;
+}
+
 .navigation{
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+}
+
+.nav-content{
+  display: flex;
+  width: 269px;
+  height: 47px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button{
+  display: flex;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
 }
 
 .menu{
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
