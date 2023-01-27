@@ -1,9 +1,24 @@
+:root{
+  --COLOR_WHITE: #ffffff;
+  --COLOR_RED: #FF4948;
+  --COLOR_RED_GRADIENT:#DE5150;
+}
+
 body{
-  background-color: #FF9292;
   margin: 0;
+  background-color: beige;
 }
 
 header{
-  /* background-color: rgb(3, 129, 129); */
+  background: linear-gradient(to right, var(--COLOR_RED), var(--COLOR_RED_GRADIENT));
   height: 850px;
+}
+
+main{
+background-color: rgb(16, 195, 198);
+height: 1000px;
+}
+
+footer{
+  background-color: azure;
 }

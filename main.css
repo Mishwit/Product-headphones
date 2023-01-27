@@ -1,0 +1,24 @@
+.cards-block{
+  display: flex;
+}
+
+.left-arrow{
+/* margin-top: 506px; */
+}
+
+
+.right-arrow{
+  /* margin-top: 506px; */
+}
+
+.card-carousel{
+  display: flex;
+}
+
+.primary-card{
+
+}
+
+.secondary-card{
+  margin: 371px 0 0 0;
+}
