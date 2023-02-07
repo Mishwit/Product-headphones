@@ -60,19 +60,12 @@
  margin: 0 0 0 98px;
  width: 517px;
  height: 282px;
- font-family: sans-serif;
- font-style: normal;
 }
 
-.tagline-one{
+.tagline{
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
-}
-
-.tagline-two{
-  font-size: 99px;
-  font-weight: 700;
 }
 
 .prices{

@@ -7,6 +7,8 @@
 body{
   margin: 0;
   background-color: beige;
+  font-family: sans-serif;
+  font-style: normal;
 }
 
 header{
@@ -21,4 +23,18 @@ height: 1000px;
 
 footer{
   background-color: azure;
+}
+
+h1{
+  font-size: 99px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2{
+font-size: 44px;
+font-weight: 700;
+display: flex;
+justify-content: center;
+text-align: center;
 }
