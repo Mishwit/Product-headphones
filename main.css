@@ -2,10 +2,10 @@
 .cards-block{
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  background-color: pink;
 }
 
-.collection-text{
+.card-title{
   display: flex;
   width: 508px;
   height: 101px;
@@ -15,12 +15,12 @@
 }
 
 .left-arrow{
-/* margin: 507px 67px 0 242px; */
+
 }
 
 
 .right-arrow{
-  /* margin: 507px 236px 67px 72px; */
+
 }
 
 .card-carousel{
@@ -29,6 +29,7 @@
   align-items: center;
   height: 594px;
   width: 1142px;
+  position: relative;
 }
 
 .primary-card{
@@ -36,5 +37,29 @@
 }
 
 .secondary-card{
-  margin: 371px 0 0 0;
+}
+
+.characteristics{
+  display: flex;
+  flex-direction: column;
+}
+
+.battery{
+  display: flex;
+  flex-direction: row;
+}
+
+.bluetooth{
+  display: flex;
+  flex-direction: row;
+}
+
+.microphone{
+  display: flex;
+  flex-direction: row;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
 }
