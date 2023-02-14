@@ -3,15 +3,14 @@
   display: flex;
   flex-direction: column;
   background-color: pink;
+  margin-left: 240px;
 }
 
 .card-title{
   display: flex;
-  width: 508px;
-  height: 101px;
-  margin: 140px 555px 70px 556px;
   text-align: center;
   word-wrap: break-word;
+  margin: 96px 0 70px 0;
 }
 
 .left-arrow{
@@ -27,16 +26,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 594px;
-  width: 1142px;
-  position: relative;
 }
 
-.primary-card{
+.major-card{
 
 }
 
-.secondary-card{
+.adjective-card{
 }
 
 .characteristics{

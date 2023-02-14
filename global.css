@@ -34,10 +34,24 @@ h2{
 font-size: 44px;
 font-weight: 700;
 display: flex;
-justify-content: center;
 text-align: center;
 }
 
 h3{
   margin: 0;
+}
+
+.just-center{
+display: flex;
+justify-content: center;
+}
+
+.just-start{
+display: flex;
+justify-content: start;
+}
+
+.just-end{
+display: flex;
+justify-content: end;
 }
