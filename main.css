@@ -6,6 +6,18 @@
   margin-left: 240px;
 }
 
+.first-block{
+  background-color: aquamarine;
+}
+
+.second-block{
+  background-color: beige;
+}
+
+.third-block{
+  background-color: antiquewhite;
+}
+
 .card-title{
   display: flex;
   text-align: center;
@@ -13,19 +25,60 @@
   margin: 96px 0 70px 0;
 }
 
+.first-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-card{
+  display: flex;
+}
+
+.third-card{
+  display: flex;
+  margin-top: 43px;
+}
+
+.pink{
+height: 331px;
+width: 331px;
+background-color: var(--COLOR_PINK);
+border-radius: 30px;
+}
+
+.p-img{
+margin: 0 53px 27px 24px;
+}
+
+.b-img{
+margin: 0 43px 26px 24px;
+}
+
+.g-img{
+margin: 0 44px 19px 14px;
+}
+
+.blue{
+  height: 331px;
+  width: 331px;
+  background-color: var(--COLOR_BLUE);
+  border-radius: 30px;
+}
+
+.green{
+  height: 331px;
+  width: 331px;
+  background-color: var(--COLOR_GREEN);
+  border-radius: 30px;
+}
+
 .left-arrow{
 
 }
 
-
 .right-arrow{
 
-}
-
-.card-carousel{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .major-card{
@@ -38,16 +91,19 @@
 .characteristics{
   display: flex;
   flex-direction: column;
+  margin-right: 342px;
 }
 
 .battery{
   display: flex;
   flex-direction: row;
+  margin-bottom: 41px;
 }
 
 .bluetooth{
   display: flex;
   flex-direction: row;
+  margin-bottom: 41px;
 }
 
 .microphone{
@@ -58,4 +114,16 @@
 .description{
   display: flex;
   flex-direction: column;
+  margin-left: 19px;
+}
+
+.description-title{
+  margin-bottom: 5px;
+}
+
+.learn-more{
+  margin-top: 10px;
+  color: var(--COLOR_ORANGE);
+  font-weight: 500;
+  font-size: 16px;
 }
