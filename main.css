@@ -18,6 +18,11 @@
   background-color: antiquewhite;
 }
 
+.fourth-block{
+  display: flex;
+  margin-top: 186px;
+}
+
 .title-one{
   text-align: center;
   word-wrap: break-word;
@@ -35,6 +40,10 @@
   margin: 96px 0 25px 0;
 }
 
+.title-four{
+margin-bottom: 48px;
+}
+
 .first-card{
   display: flex;
   justify-content: center;
@@ -48,6 +57,12 @@
 .third-card{
   display: flex;
   margin-top: 43px;
+}
+
+.fourth-card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
 }
 
 .pink{
@@ -74,15 +89,15 @@ margin-right: 63px;
 }
 
 .p-img{
-margin: -50px 53px 27px 24px;
+margin: -50px 53px 0 24px;
 }
 
 .b-img{
-margin: -50px 43px 26px 24px;
+margin: -50px 43px 0 24px;
 }
 
 .g-img{
-margin: -50px 44px 19px 14px;
+margin: -50px 44px 0 14px;
 }
 
 .left-arrow{
@@ -152,7 +167,7 @@ margin: -50px 44px 19px 14px;
   align-items: center;
   font-weight: 600;
   font-size: 16px;
-  margin-top: 33px;
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -170,4 +185,14 @@ font-weight: 400;
 
 .prod-price{
   font-weight:600;
+}
+
+.qualities{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.paragraph{
+margin: 20px 0 20px 0;
 }
