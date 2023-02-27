@@ -6,12 +6,12 @@
   --COLOR_PINK: #FFE5EE;
   --COLOR_BLUE: #E5F1FF;
   --COLOR_GREEN: #E5FFFB;
-
+  --COLOR_PEACH: #FFF4F4;
 }
 
 body{
   margin: 0;
-  background-color: beige;
+  /* background-color: beige; */
   font-family: sans-serif;
   font-style: normal;
 }
@@ -22,11 +22,11 @@ header{
 }
 
 main{
-background-color: rgb(16, 195, 198);
+/* background-color: rgb(16, 195, 198); */
 }
 
 footer{
-  background-color: azure;
+  /* background-color: azure; */
 }
 
 h1{
@@ -58,4 +58,8 @@ justify-content: start;
 .just-end{
 display: flex;
 justify-content: end;
+}
+
+.opacity{
+  opacity: 0.7;
 }

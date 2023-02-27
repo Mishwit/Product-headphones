@@ -2,46 +2,18 @@
 .cards-block{
   display: flex;
   flex-direction: column;
-  background-color: pink;
+  /* background-color: pink; */
   margin-left: 240px;
 }
 
 .first-block{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
-.second-block{
-  background-color: beige;
-}
-
-.third-block{
-  background-color: antiquewhite;
-}
-
-.fourth-block{
-  display: flex;
-  margin-top: 186px;
-}
-
-.title-one{
+.first-title{
   text-align: center;
   word-wrap: break-word;
   margin: 96px 0 0 0;
-}
-
-.title-two{
-  text-align: start;
-  word-wrap: break-word;
-}
-
-.title-three{
-  text-align: center;
-  word-wrap: break-word;
-  margin: 96px 0 25px 0;
-}
-
-.title-four{
-margin-bottom: 48px;
 }
 
 .first-card{
@@ -50,13 +22,41 @@ margin-bottom: 48px;
   align-items: center;
 }
 
+.second-block{
+  /* background-color: beige; */
+}
+
+.second-title{
+  text-align: start;
+  word-wrap: break-word;
+}
+
 .second-card{
   display: flex;
+}
+
+.third-block{
+  /* background-color: antiquewhite; */
+}
+
+.third-title{
+  text-align: center;
+  word-wrap: break-word;
+  margin: 0 0 25px 0;
 }
 
 .third-card{
   display: flex;
   margin-top: 43px;
+}
+
+.fourth-block{
+  display: flex;
+  margin-top: 186px;
+}
+
+.fourth-title{
+  margin-bottom: 48px;
 }
 
 .fourth-card{
@@ -65,12 +65,38 @@ margin-bottom: 48px;
   margin-left: 17px;
 }
 
+.fifth-block{
+ display: flex;
+ flex-direction: column;
+ margin-top: 96px;
+ background-color: var(--COLOR_PEACH);
+ max-width: 712px;
+ max-height: 292px;
+ border-radius: 20px;
+ padding: 54px 103px 54px 105px;
+}
+
+.fifth-title{
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(72, 43, 8); */
+  margin: 0 0 6px 0;
+  line-height: 57px;
+}
+
+.fifth-card{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  background-color: rgb(193, 146, 86); */
+}
+
 .pink{
-height: 331px;
-width: 331px;
-background-color: var(--COLOR_PINK);
-border-radius: 30px;
-margin-right: 63px;
+ height: 331px;
+ width: 331px;
+ background-color: var(--COLOR_PINK);
+ border-radius: 30px;
+ margin-right: 63px;
 }
 
 .blue{
@@ -89,15 +115,15 @@ margin-right: 63px;
 }
 
 .p-img{
-margin: -50px 53px 0 24px;
+ margin: -50px 53px 0 24px;
 }
 
 .b-img{
-margin: -50px 43px 0 24px;
+ margin: -50px 43px 0 24px;
 }
 
 .g-img{
-margin: -50px 44px 0 14px;
+ margin: -50px 44px 0 14px;
 }
 
 .left-arrow{
@@ -118,30 +144,31 @@ margin: -50px 44px 0 14px;
 .characteristics{
   display: flex;
   flex-direction: column;
-  margin-right: 342px;
 }
 
 .battery{
   display: flex;
   flex-direction: row;
   margin-bottom: 41px;
+  gap: 19px;
 }
 
 .bluetooth{
   display: flex;
   flex-direction: row;
   margin-bottom: 41px;
+  gap: 19px;
 }
 
 .microphone{
   display: flex;
   flex-direction: row;
+  gap: 19px;
 }
 
 .description{
   display: flex;
   flex-direction: column;
-  margin-left: 19px;
 }
 
 .description-title{
@@ -155,10 +182,17 @@ margin: -50px 44px 0 14px;
   font-size: 16px;
 }
 
+.yellow-headphones{
+  margin-left: 342px;
+  margin-top: -120px;
+  margin-bottom: 150px;
+}
+
 .postscript{
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  margin-bottom: 93px;
 }
 
 .stars{
@@ -180,7 +214,7 @@ margin: -50px 44px 0 14px;
 }
 
 .prod-name{
-font-weight: 400;
+ font-weight: 400;
 }
 
 .prod-price{
@@ -194,5 +228,31 @@ font-weight: 400;
 }
 
 .paragraph{
-margin: 20px 0 20px 0;
+ margin: 20px 0 20px 0;
+ display: flex;
+ align-items: center;
+ gap: 15px;
+ font-size: 22px;
+ font-weight: 400;
+}
+
+.subscribe-postscript{
+ font-weight: 400;
+ font-size: 16px;
+ text-align: center;
+ margin-bottom: 36px;
+}
+
+.form{
+  padding: 15px 0 15px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input{
+
+}
+
+::placeholder{
+  opacity: 0.3;
 }
