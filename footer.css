@@ -1,0 +1,19 @@
+.bottom-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 62px;
+}
+
+.social-media{
+  display: flex;
+  gap: 35px;
+}
+
+.home-about-product{
+display: flex;
+gap: 31px;
+color: var(--COLOR_WHITE);
+font-size: 22px;
+font-weight: 500;
+}

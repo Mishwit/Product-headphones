@@ -1,7 +1,8 @@
 .nav-wrapper{
   display: flex;
   height: 66px;
-  margin: 34px 237px 0 237px;
+  margin: 0 237px 0 237px;
+  padding-top: 34px;
   justify-content: center;
 }
 

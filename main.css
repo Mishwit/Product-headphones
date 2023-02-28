@@ -74,6 +74,7 @@
  max-height: 292px;
  border-radius: 20px;
  padding: 54px 103px 54px 105px;
+ margin-bottom: 96px;
 }
 
 .fifth-title{
@@ -123,7 +124,7 @@
 }
 
 .g-img{
- margin: -50px 44px 0 14px;
+ margin: -60px 44px 0 14px;
 }
 
 .left-arrow{
@@ -250,9 +251,27 @@
 }
 
 .search-input{
-
+ width: 503px;
+ height: 61px;
+ border-radius: 73px;
+ border: none;
+ padding: 0;
 }
 
-::placeholder{
-  opacity: 0.3;
+.search-input::placeholder{
+ opacity: 0.3;
+ font-weight: 400;
+ font-size: 18px;
+ padding: 17px 0 17px 30px;
+}
+
+.submit{
+ padding: 15px 30px 15px 30px;
+ border: none;
+ border-radius: 50px;
+ color: var(--COLOR_WHITE);
+ background-color: var(--COLOR_RED);
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 31px;
 }
