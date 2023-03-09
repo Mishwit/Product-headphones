@@ -9,15 +9,16 @@
   --COLOR_PEACH: #FFF4F4;
 }
 
+
 body{
   margin: 0;
-  /* background-color: beige; */
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
 }
 
 header{
-  background: linear-gradient(to right, var(--COLOR_RED), var(--COLOR_RED_GRADIENT));
+  background-size: cover;
+  background-image: url(../Product-headphones/images/background.svg);
   height: 850px;
 }
 

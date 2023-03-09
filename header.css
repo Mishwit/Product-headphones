@@ -69,6 +69,12 @@
   letter-spacing: 1px;
 }
 
+.tagline-two{
+  font-size: 99px;
+  line-height: 99px;
+  text-transform: uppercase;
+}
+
 .prices{
   display: flex;
   align-items: center;
