@@ -4,6 +4,7 @@
   margin: 0 237px 0 237px;
   padding-top: 34px;
   justify-content: center;
+  max-width: 1145.5px;
 }
 
 .navigation{
@@ -16,6 +17,7 @@
 
 .logo{
   display: flex;
+  margin-right: 375px;
 }
 
 .nav-content{
@@ -40,6 +42,7 @@
 .menu{
   display: flex;
   align-items: center;
+  margin-left: 391px;
 }
 
 .product-card{

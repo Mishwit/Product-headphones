@@ -17,16 +17,27 @@ body{
 }
 
 header{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
   background-size: cover;
   background-image: url(../Product-headphones/images/background.svg);
   height: 850px;
 }
 
 main{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 /* background-color: rgb(16, 195, 198); */
 }
 
 footer{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
  background-color: #E86564;
  height: 189px;
 }
