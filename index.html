@@ -21,6 +21,12 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Headphones</title>
   </head>
@@ -579,14 +585,17 @@
             </span>
 
             <form class="form" method="get">
-              <input
-                class="search-input"
-                type="text"
-                placeholder="Enter Your email address"
-                name="text"
-                value=""
-              />
-              <button type="submit" class="submit">Subscribe</button>
+              <div class="input-wrapper">
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="Enter Your email address"
+                  name="text"
+                  value=""
+                />
+
+                <button type="submit" class="submit">Subscribe</button>
+              </div>
             </form>
           </div>
         </div>
@@ -594,7 +603,7 @@
     </main>
     <footer>
       <div class="bottom-wrapper">
-        <div>
+        <div class="logo-bottom">
           <img
             src="./images/favpng_beats-electronics-logo-negative-space 1.png"
           />

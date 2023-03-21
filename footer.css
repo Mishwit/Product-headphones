@@ -8,6 +8,11 @@
 .social-media{
   display: flex;
   gap: 35px;
+  margin-left: 211px;
+}
+
+.logo-bottom{
+  margin-right: 370px;
 }
 
 .home-about-product{

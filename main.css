@@ -270,6 +270,7 @@
 }
 
 .submit{
+  /* margin-left: -158px; */
  padding: 15px 30px 15px 30px;
  border: none;
  border-radius: 50px;
